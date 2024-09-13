@@ -2,6 +2,7 @@ package first;
 
 public class TiposDeDatos {
 	public static void main (String[] args) {
+		final double iva = 21.0/100; // ejemplo de constante
 		int numeroEntero;
 		double numeroDecimal;
 		char letra;
@@ -20,6 +21,6 @@ public class TiposDeDatos {
 		System.out.println(letra);
 		System.out.println(nombre);
 		System.out.println(apellido);
-		
+		System.out.println(iva);
 	}
 }
