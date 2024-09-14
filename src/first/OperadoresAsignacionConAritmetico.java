@@ -1,5 +1,5 @@
 package first;
-//TODO: Agregar los valores que aparecen en consola para cada uno de las operaciones
+//TODO: Investigar por que el operador 16 % 3 dio 1;
 public class OperadoresAsignacionConAritmetico {
 	public static void main(String[] args) {
 		int a = 10;
@@ -13,11 +13,11 @@ public class OperadoresAsignacionConAritmetico {
 		a /= 5;
 		System.out.println(a); // 16
 		a %= 3;
-		System.out.println(a); // 3
+		System.out.println(a); // 1
 		a ++;
-		System.out.println(a); // 4
+		System.out.println(a); // 2
 		a --;
-		System.out.println(a); // 3
+		System.out.println(a); // 1
 	}
 
 }
