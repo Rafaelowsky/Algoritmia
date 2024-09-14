@@ -14,7 +14,7 @@ public class MostrarDatosEnPantalla {
 		System.out.println("En " + valor + " fue descubierto Ámerica por " + nombre); // Aqui son los valores concatenados
 		System.out.printf("En %d fue descubierto Ámerica por %s%n", valor, nombre); // Aqui es una forma de imprimir los datos pero con printf
 		System.out.printf("El valor %d equivale a %x en base 16%n", valor, valor);
-		System.out.printf("El valor de Pi es %f%n", Math.PI);
+		System.out.printf("El valor de Pi es %.2f%n", Math.PI); // %.2f es para mostrar la cantidad de decimales que necesitas
 		System.out.printf("La precision de grabado de los procesadores es %e m%n", precisionGrabado);
 	}
 }
