@@ -1,6 +1,7 @@
 /* Este programa muestra ejemplos de como utilizar las operaciones dentro de JAVA */
 package first;
 
+// TODO: Agregar comentarios sobre que hace cada linea
 public class EjemplosOperaciones {
 	public static void main(String[] args) {
 		
