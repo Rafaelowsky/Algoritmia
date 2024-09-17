@@ -1,3 +1,4 @@
+// Este programa es un ejemplo sobre como no utilizar la iteracione while
 package first;
 
 import java.util.Scanner;
@@ -10,8 +11,8 @@ public class WhileIncorrecto {
 		String valorIntroducido = console.next();
 		console.nextLine();
 		
-		while (valorIntroducido != "París") {
-			if (valorIntroducido == "París") 
+		while (valorIntroducido.equals("París") ) {
+			if (valorIntroducido.equals("París")) 
 				System.out.println("Es correcto");
 			else 
 				System.out.println("Te equivocaste ):");
