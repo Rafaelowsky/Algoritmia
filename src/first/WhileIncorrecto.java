@@ -11,12 +11,13 @@ public class WhileIncorrecto {
 		String valorIntroducido = console.next();
 		console.nextLine();
 		
-		while (valorIntroducido.equals("París") ) {
-			if (valorIntroducido.equals("París")) 
-				System.out.println("Es correcto");
-			else 
-				System.out.println("Te equivocaste ):");
+		while (!valorIntroducido.equals("París") ) {
+			System.out.println("Te equivocaste, intentalo de nuevo:");
+			System.out.println("¿Cual es la capital de Francia?");
+			valorIntroducido = console.nextLine();
 		}
 		
+		System.out.println("Bravo acertaste!");
+		console.close();
 	}
 }
