@@ -8,8 +8,9 @@ import java.util.Scanner;
 public class VelocidadMedia {
 	public static void main(String[] args) {
 	
+		//Adquisión de variables
 		Scanner console = new Scanner(System.in);
-		System.out.println("¿Cual fue la distancia recorrida?");
+		System.out.println("¿Cual fue la distancia recorrida? escribelo en kilometros");
 		int distancia = console.nextInt();
 		console.nextLine();
 		System.out.println("¿En cuanto tiempo? escribelo en minutos");
@@ -17,8 +18,10 @@ public class VelocidadMedia {
 		console.nextLine();
 		console.close();
 		
-		double resultado = distancia/(tiempo*60);
-		System.out.printf("Su velocidad media fue de: %.2f", resultado);
+		// Operación para obtener velocidad media
+		double resultado = ((double)distancia) / (tiempo / 60); 
+		System.out.printf("Su velocidad media fue de: %.1f", resultado);
 		// TODO: Arreglar porque el resultado sale en 0.00
+		
 	}
 }
