@@ -21,7 +21,5 @@ public class VelocidadMedia {
 		// Operación para obtener velocidad media
 		double resultado = ((double)distancia) / (tiempo / 60); 
 		System.out.printf("Su velocidad media fue de: %.1f", resultado);
-		// TODO: Arreglar porque el resultado sale en 0.00
-		
 	}
 }
