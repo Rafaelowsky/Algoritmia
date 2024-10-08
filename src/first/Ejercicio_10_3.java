@@ -13,5 +13,7 @@ public class Ejercicio_10_3 {
 		console.nextLine();
 		System.out.println("Valor 1 = " + valor1 + " Valor 2 = " + valor2);
 		console.close();
+		
+		// El programa solamente recibe dos valores y estos los imprime en pantalla
 	}
 }
