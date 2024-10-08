@@ -10,5 +10,7 @@ public class Ejercicio_10_1 {
 		System.out.printf("a = %d y b = %d%n", a, b);
 		a = 7; // a = 7
 		System.out.printf("a = %d y b = %d%n", a, b);
+		// el valor de b no cambia porque ya fue asignado
+		// anteriormente y el programa se ejecuta secuencialmente
 	}
 }
