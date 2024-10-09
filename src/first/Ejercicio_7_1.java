@@ -13,8 +13,12 @@ public class Ejercicio_7_1 {
 		
 		if (temp < 2) {
 			System.out.println("Riesgo de Hielo!!!!");
-		}	else {
-			System.out.println("Todo esta bien :)");
+		}	else  if (temp >= 2 && temp < 15){
+			System.out.println("Hace frío");
+		}	else  if (temp >= 15 && temp < 30){
+			System.out.println("Hace calor");
+		}	else  if (temp >= 30){
+			System.out.println("Demasiado calor");
 		}
 		
 		console.close();
